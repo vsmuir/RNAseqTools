@@ -1,0 +1,15 @@
+Package: RNAseqTools
+Title: Tools for RNAseq analysis.
+Version: 0.0.0.9000
+Authors@R: person("Virginia", "Muir", email = "vsmuir@gmail.com", role = c("aut", "cre"))
+Description: This package contains simple QC and plotting functions for RNAseq data.
+Depends: R (>= 3.4.2)
+Imports:
+    dplyr,
+    geneSetTools,
+    ggbeeswarm,
+    ggsignif
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.0.1
