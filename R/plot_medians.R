@@ -1,6 +1,5 @@
 #' Plot the median expression value for a set of genes using a counts object and annotation dataframe
 #'
-#' This function allows you to express your love of cats.
 #' @param counts Matrix or dataframe of counts or batch corrected residuals.  The dimension corresponding to genes must have dimnames, which will be matched to the gene identifiers in \code{gene_sets}. The dimension corresponding to library or sample IDs must have dimnames, which will be matched to the sample identifiers in \code{annotation}.
 #' @param module The module or gene set, as a character vector
 #' @param annotation Dataframe where libraries that should be included in plot are in rows and phenotypic/quality characteristics are in columns.
