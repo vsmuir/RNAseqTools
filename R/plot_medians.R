@@ -44,7 +44,7 @@ plot_medians <- function(counts, module, annotation, id, group,
     dplyr::select(id, group, timepoint) %>%
     left_join(med_mod_counts)
   
-  if(is.na(timepoint)){
+  if(is.null(timepoint)){
     
     plot = ggplot2::ggplot(plot_df, aes(x = get(group), y = median_count, color = get(group))) +
       geom_boxplot(outlier.colour = NA, fill = NA) +
