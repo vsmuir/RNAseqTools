@@ -51,7 +51,7 @@ plot_medians <- function(counts, module, annotation, id, group,
       ggbeeswarm::geom_beeswarm(shape = 1) +
       ggsignif::geom_signif(comparisons = sig_comparison, map_signif_level = T) +
       scale_color_manual(values = palette, guide=FALSE) +
-      labs(x = "Group", y = "Median Module\nExpression")
+      labs(x = "", y = "Median Module\nExpression")
     
   } else {
     
